@@ -48,7 +48,7 @@ function genTK(text,
 
 function googleInit() {
     HttpProtocol = "http://"
-    HttpHost = "translate.google.com"
+    HttpHost = "translate.google.cn"
     HttpPort = 80
 }
 
@@ -66,7 +66,7 @@ function googleTTSUrl(text, tl) {
 }
 
 function googleWebTranslateUrl(uri, sl, tl, hl) {
-    return "https://translate.google.com/translate?"    \
+    return "https://translate.google.cn/translate?"    \
         "hl=" hl "&sl=" sl "&tl=" tl "&u=" uri
 }
 
